@@ -1,0 +1,50 @@
+header {
+    margin-top: 3.5em;
+    margin-bottom: 50px;
+    height: 100vh;
+}
+
+h1 {
+    font-weight: bolder;
+}
+
+@media only screen and (max-width: 575px) {
+    header {
+        margin-top: -2em;
+    }
+}
+
+.left-side,
+.right-side {
+    height: auto;
+}
+
+.left-side {
+    margin-right: 0%;
+}
+
+.navbarMain {
+    background: black;
+}
+
+#signatureAC {
+    width: 50%;
+}
+
+#about {
+    text-align: center;
+}
+
+.card {
+    text-align: center;
+    width: 20rem;
+}
+
+.card-text {
+    font-size: 15px;
+}
+
+.fab,
+.fas {
+    color: black;
+}
